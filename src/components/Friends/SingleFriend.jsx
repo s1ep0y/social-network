@@ -5,7 +5,6 @@ import DeleteIcon from '../../img/icons/delete.svg';
 import MessageIcon from '../../img/icons/message.svg';
 
 const SingleFriendWrapper = styled.div`
-  background: red;
   display: flex;
   flex-direction: row;
   justify-content: space-between;

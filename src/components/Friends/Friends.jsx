@@ -8,7 +8,7 @@ import SearchIcon from '../../img/icons/search.svg';
 
 const FriendsWrapper = styled.div`
   @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap');
-  background: yellow;
+  background: #ffffff;
   font-family: 'Montserrat', sans-serif;
   border-radius: 15px 15px 0px 0px;
   padding: 114px 114px 114px 91px;
