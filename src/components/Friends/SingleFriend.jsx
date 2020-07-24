@@ -4,7 +4,10 @@ import styled from 'styled-components';
 import DeleteIcon from '../../img/icons/delete.svg';
 import MessageIcon from '../../img/icons/message.svg';
 
-const SingleFriendWrapper = styled.div`
+
+
+const SingleFriend = (props) => {
+  const SingleFriendWrapper = styled.div`
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -77,8 +80,6 @@ const Placer = styled.div`
   flex-wrap: nowrap;
   align-items: center;
 `;
-
-const SingleFriend = (props) => {
   const {
     firstname,
     lastname,
